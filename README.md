@@ -1,6 +1,6 @@
 # An AngularJS module adapting lodash
 
-A fork of [angular-underscore](https://github.com/floydsoft/angular-underscore)
+A fork of [angular-underscore](https://github.com/cabrel/angular-lodash) upgrading to Lodash `v3.5`.
 
 This module exposes lodash's API into angular app's root scope,
 and provides some filters from lodash.
@@ -92,3 +92,7 @@ angular.module('app', ['angular-lodash']);
   </div>
 </body>
 ```
+
+## Changelog
+
+2015-03-13    v0.2.0    Lodash version bump to `v3.5.x`
